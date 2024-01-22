@@ -1,0 +1,220 @@
+2023-11-25 17:23:45,188 INFO    StreamThr :40092 [internal.py:wandb_internal():86] W&B internal server running at pid: 40092, started at: 2023-11-25 17:23:45.187349
+2023-11-25 17:23:45,190 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status
+2023-11-25 17:23:45,211 INFO    WriterThread:40092 [datastore.py:open_for_write():85] open: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\run-8wyy4f8k.wandb
+2023-11-25 17:23:45,212 DEBUG   SenderThread:40092 [sender.py:send():380] send: header
+2023-11-25 17:23:45,213 DEBUG   SenderThread:40092 [sender.py:send():380] send: run
+2023-11-25 17:23:46,335 INFO    SenderThread:40092 [dir_watcher.py:__init__():211] watching files in: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files
+2023-11-25 17:23:46,335 INFO    SenderThread:40092 [sender.py:_start_run_threads():1124] run started: 8wyy4f8k with start time 1700907825.188349
+2023-11-25 17:23:46,347 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: check_version
+2023-11-25 17:23:46,348 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: check_version
+2023-11-25 17:23:46,866 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: run_start
+2023-11-25 17:23:46,883 DEBUG   HandlerThread:40092 [system_info.py:__init__():32] System info init
+2023-11-25 17:23:46,883 DEBUG   HandlerThread:40092 [system_info.py:__init__():47] System info init done
+2023-11-25 17:23:46,883 INFO    HandlerThread:40092 [system_monitor.py:start():194] Starting system monitor
+2023-11-25 17:23:46,883 INFO    SystemMonitor:40092 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-25 17:23:46,884 INFO    HandlerThread:40092 [system_monitor.py:probe():214] Collecting system info
+2023-11-25 17:23:46,890 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started cpu monitoring
+2023-11-25 17:23:46,891 DEBUG   HandlerThread:40092 [system_info.py:probe():196] Probing system
+2023-11-25 17:23:46,891 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started disk monitoring
+2023-11-25 17:23:46,892 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started memory monitoring
+2023-11-25 17:23:46,915 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started network monitoring
+2023-11-25 17:23:46,916 DEBUG   HandlerThread:40092 [gitlib.py:_init_repo():56] git repository is invalid
+2023-11-25 17:23:46,916 DEBUG   HandlerThread:40092 [system_info.py:probe():244] Probing system done
+2023-11-25 17:23:46,916 DEBUG   HandlerThread:40092 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.18', 'heartbeatAt': '2023-11-25T10:23:46.891422', 'startedAt': '2023-11-25T10:23:45.176351', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'code/notebook2c38bb7306.ipynb', 'codePathLocal': None, 'root': 'E:\\NLP\\Vietnamese-Text-Classification-master', 'host': 'NGUYENTIENDAT', 'username': 'nguye', 'executable': 'E:\\Anaconda\\envs\\word_spelling_autocorrect\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2419.0, 'min': 0.0, 'max': 2419.0}, 'cpu_freq_per_core': [{'current': 2419.0, 'min': 0.0, 'max': 2419.0}], 'disk': {'/': {'total': 488.28124618530273, 'used': 49.73270034790039}}, 'memory': {'total': 15.729286193847656}}
+2023-11-25 17:23:46,916 INFO    HandlerThread:40092 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-25 17:23:46,916 INFO    HandlerThread:40092 [system_monitor.py:probe():227] Publishing system info
+2023-11-25 17:23:46,916 DEBUG   HandlerThread:40092 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-25 17:23:46,917 DEBUG   HandlerThread:40092 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-25 17:23:46,917 DEBUG   HandlerThread:40092 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-11-25 17:23:46,920 ERROR   HandlerThread:40092 [system_info.py:_save_conda():86] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\word_spelling_autocorrect\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 82, in _save_conda
+    subprocess.call(
+  File "E:\Anaconda\envs\word_spelling_autocorrect\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "E:\Anaconda\envs\word_spelling_autocorrect\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "E:\Anaconda\envs\word_spelling_autocorrect\lib\subprocess.py", line 1327, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2023-11-25 17:23:46,933 DEBUG   HandlerThread:40092 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-25 17:23:46,934 INFO    HandlerThread:40092 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-25 17:23:46,946 DEBUG   SenderThread:40092 [sender.py:send():380] send: files
+2023-11-25 17:23:46,946 INFO    SenderThread:40092 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-25 17:23:46,967 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:23:46,967 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:23:46,970 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:23:46,971 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: pause
+2023-11-25 17:23:46,971 INFO    HandlerThread:40092 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-25 17:23:46,971 INFO    HandlerThread:40092 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-25 17:23:46,971 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-25 17:23:46,972 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-25 17:23:46,972 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined disk monitor
+2023-11-25 17:23:46,972 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-25 17:23:46,974 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined memory monitor
+2023-11-25 17:23:46,974 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-25 17:23:46,974 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined network monitor
+2023-11-25 17:23:47,349 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_created():271] file/dir created: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\conda-environment.yaml
+2023-11-25 17:23:47,349 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_created():271] file/dir created: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\requirements.txt
+2023-11-25 17:23:47,349 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_created():271] file/dir created: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\wandb-metadata.json
+2023-11-25 17:23:47,586 DEBUG   SenderThread:40092 [sender.py:send():380] send: telemetry
+2023-11-25 17:23:47,586 DEBUG   SenderThread:40092 [sender.py:send():380] send: stats
+2023-11-25 17:23:48,361 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_created():271] file/dir created: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\output.log
+2023-11-25 17:23:48,797 INFO    wandb-upload_0:40092 [upload_job.py:push():131] Uploaded file C:\Users\nguye\AppData\Local\Temp\tmpkthbdmulwandb\m7cekj08-wandb-metadata.json
+2023-11-25 17:23:50,376 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\output.log
+2023-11-25 17:23:50,646 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:23:55,692 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:23:57,832 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: resume
+2023-11-25 17:23:57,832 INFO    HandlerThread:40092 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-25 17:23:57,832 INFO    HandlerThread:40092 [system_monitor.py:start():194] Starting system monitor
+2023-11-25 17:23:57,833 INFO    SystemMonitor:40092 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-25 17:23:57,841 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started cpu monitoring
+2023-11-25 17:23:57,842 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started disk monitoring
+2023-11-25 17:23:57,844 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started memory monitoring
+2023-11-25 17:23:57,866 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started network monitoring
+2023-11-25 17:23:59,534 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: pause
+2023-11-25 17:23:59,534 INFO    HandlerThread:40092 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-25 17:23:59,534 INFO    HandlerThread:40092 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-25 17:23:59,534 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-25 17:23:59,534 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-25 17:23:59,535 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-25 17:23:59,535 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-25 17:23:59,535 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined disk monitor
+2023-11-25 17:23:59,535 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined memory monitor
+2023-11-25 17:23:59,535 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined network monitor
+2023-11-25 17:23:59,536 DEBUG   SenderThread:40092 [sender.py:send():380] send: stats
+2023-11-25 17:24:01,553 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:01,977 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:24:01,978 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:24:01,978 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:24:02,511 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\output.log
+2023-11-25 17:24:06,555 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\output.log
+2023-11-25 17:24:07,048 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:12,080 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:16,988 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:24:16,989 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:24:16,989 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:24:17,249 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:17,649 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\config.yaml
+2023-11-25 17:24:22,591 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:27,652 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:31,992 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:24:31,993 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:24:32,007 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:24:33,343 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:38,404 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:43,469 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:47,005 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:24:47,007 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:24:47,034 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:24:47,223 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: resume
+2023-11-25 17:24:47,223 INFO    HandlerThread:40092 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-25 17:24:47,223 INFO    HandlerThread:40092 [system_monitor.py:start():194] Starting system monitor
+2023-11-25 17:24:47,236 INFO    SystemMonitor:40092 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-25 17:24:47,238 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-25 17:24:47,247 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started cpu monitoring
+2023-11-25 17:24:47,248 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started disk monitoring
+2023-11-25 17:24:47,250 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: pause
+2023-11-25 17:24:47,250 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started memory monitoring
+2023-11-25 17:24:47,250 INFO    HandlerThread:40092 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-25 17:24:47,250 INFO    HandlerThread:40092 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-25 17:24:47,251 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started network monitoring
+2023-11-25 17:24:47,251 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-25 17:24:47,251 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-25 17:24:47,252 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined disk monitor
+2023-11-25 17:24:47,252 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-25 17:24:47,252 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined memory monitor
+2023-11-25 17:24:47,252 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-25 17:24:47,253 INFO    HandlerThread:40092 [interfaces.py:finish():202] Joined network monitor
+2023-11-25 17:24:47,262 DEBUG   SenderThread:40092 [sender.py:send():380] send: telemetry
+2023-11-25 17:24:47,263 DEBUG   SenderThread:40092 [sender.py:send():380] send: telemetry
+2023-11-25 17:24:47,263 DEBUG   SenderThread:40092 [sender.py:send():380] send: files
+2023-11-25 17:24:47,263 INFO    SenderThread:40092 [sender.py:_save_file():1380] saving file model-best.h5 with policy live
+2023-11-25 17:24:47,263 DEBUG   SenderThread:40092 [sender.py:send():380] send: telemetry
+2023-11-25 17:24:47,266 DEBUG   SenderThread:40092 [sender.py:send():380] send: stats
+2023-11-25 17:24:48,553 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: resume
+2023-11-25 17:24:48,553 INFO    HandlerThread:40092 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-25 17:24:48,555 INFO    HandlerThread:40092 [system_monitor.py:start():194] Starting system monitor
+2023-11-25 17:24:48,556 INFO    SystemMonitor:40092 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-25 17:24:48,569 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started cpu monitoring
+2023-11-25 17:24:48,570 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started disk monitoring
+2023-11-25 17:24:48,571 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started memory monitoring
+2023-11-25 17:24:48,605 INFO    SystemMonitor:40092 [interfaces.py:start():190] Started network monitoring
+2023-11-25 17:24:49,212 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:49,216 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\output.log
+2023-11-25 17:24:50,436 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\output.log
+2023-11-25 17:24:50,436 INFO    Thread-16 :40092 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\NLP\Vietnamese-Text-Classification-master\code\wandb\run-20231125_172345-8wyy4f8k\files\config.yaml
+2023-11-25 17:24:54,588 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:24:59,691 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:02,018 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:25:02,019 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:25:02,029 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:25:05,528 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:10,997 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:16,182 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:17,079 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:25:17,080 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:25:17,093 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:25:21,477 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:26,639 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:31,698 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:32,047 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:25:32,050 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:25:32,105 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:25:37,545 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:42,644 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:47,085 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:25:47,098 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:25:47,136 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:25:48,484 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:48,689 DEBUG   SystemMonitor:40092 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-25 17:25:48,939 DEBUG   SenderThread:40092 [sender.py:send():380] send: stats
+2023-11-25 17:25:54,096 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:25:59,234 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:02,082 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:26:02,084 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:26:02,148 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:26:04,488 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:09,584 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:14,855 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:17,115 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:26:17,118 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:26:17,179 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:26:18,951 DEBUG   SenderThread:40092 [sender.py:send():380] send: stats
+2023-11-25 17:26:19,957 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:25,079 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:30,131 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:32,103 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:26:32,104 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:26:32,185 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:26:35,423 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:40,466 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:45,520 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:47,122 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:26:47,123 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:26:47,198 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:26:48,963 DEBUG   SenderThread:40092 [sender.py:send():380] send: stats
+2023-11-25 17:26:50,990 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:26:56,053 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:01,134 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:02,158 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:27:02,180 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:27:02,195 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:27:06,481 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:11,526 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:16,593 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:17,152 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:27:17,153 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:27:17,211 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:27:18,970 DEBUG   SenderThread:40092 [sender.py:send():380] send: stats
+2023-11-25 17:27:22,010 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:27,051 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:32,127 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:32,158 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:27:32,159 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:27:32,219 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-25 17:27:37,478 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:42,524 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: status_report
+2023-11-25 17:27:47,172 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-25 17:27:47,173 DEBUG   SenderThread:40092 [sender.py:send_request():407] send_request: stop_status
+2023-11-25 17:27:47,237 DEBUG   HandlerThread:40092 [handler.py:handle_request():146] handle_request: internal_messages

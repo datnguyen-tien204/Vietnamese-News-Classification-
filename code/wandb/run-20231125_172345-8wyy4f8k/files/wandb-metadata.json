@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2023-11-25T10:23:46.891422",
+    "startedAt": "2023-11-25T10:23:45.176351",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "code/notebook2c38bb7306.ipynb",
+    "codePathLocal": null,
+    "root": "E:\\NLP\\Vietnamese-Text-Classification-master",
+    "host": "NGUYENTIENDAT",
+    "username": "nguye",
+    "executable": "E:\\Anaconda\\envs\\word_spelling_autocorrect\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 488.28124618530273,
+            "used": 49.73270034790039
+        }
+    },
+    "memory": {
+        "total": 15.729286193847656
+    }
+}
