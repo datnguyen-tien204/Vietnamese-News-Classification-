@@ -1,15 +1,15 @@
-![header](github/image/daaf2d95fb02505c0913.jpg)
 [English](README.md) | [简体中文](github/cn_Zh_ReadmeMD.md).md) | [Tiếng việt](github/vi_vn_ReadmeMD.md)
 
 ## Contents
-1. [OpenPose with Recurrent Neural Network](#introduction)
+1. [Vietnamese Category Classification](#introduction)
 2. [Results](#results)
-3. [Installation](#installation)
-4. [Quick Start Overview](#quick-start-overview)
-5. [Structures](#structures)
-6. [Send Us Feedback!](#send-us-feedback)
-7. [Thanks](#thanks)
-8. [License](#license)
+3. [Evaluation](#evaluation)
+4. [Installation](#installation)
+5. [Quick Start Overview](#quick-start-overview)
+6. [Structures](#structures)
+7. [Send Us Feedback!](#send-us-feedback)
+8. [Thanks](#thanks)
+9. [License](#license)
 
 
 # Introduction
@@ -19,7 +19,7 @@ This project provides an implementation anomaly detection of OpenPose + RNN. For
 # Results
 ### Summary Cheating Recognition ( using OpenPose + Yolov3+ Recurrent Neural Network)
 <p align="center">
-    <img src="github/video/video_demo.gif" width="1000">
+    <img src="github/video_demo.mp4" width="1000">
     <br>
     <sup>Testing with 12422TN class <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="_blank"><i> on OpenPose </i></a>
 </p>
