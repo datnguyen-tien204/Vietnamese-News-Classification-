@@ -88,30 +88,11 @@ Requirements python >= 3.7
  ```bash
  pip install -r requirements.txt
 ```
-2. Install dependences files
-- Change directory to ``` OpenPose/graph_models/VGG_origin```, you can change directory with this command ```cd OpenPose/graph_models/VGG_origin ```
-- After you must run ``` file_requirements.py ``` or
- ``` bash
-python file_requirements.py
-```
-3. Install dependences files with other steps ( Optional )
-- If you step 2 not successfully you can download weights from [Google Drive](https://drive.google.com/drive/folders/1Y4coXLsVzCXYuCKpyDfQBqpHH8Aj-Yg5?usp=sharing)
-- Move folder ```graph_models``` downloaded to ```OpenPose\graph_models``` 
 
 ### With Anaconda 
 1. Install dependences library
-   - You can load dependences library with ``` openpose.yaml``` file.
-   - You can find ```openpose.yaml``` file in folder ```Environment```
-2. Install dependences files
-- Change directory to ``` OpenPose/graph_models/VGG_origin```, you can change directory with this command ```cd OpenPose/graph_models/VGG_origin ```
-- After you must run ``` file_requirements.py ``` or
- ``` bash
-python file_requirements.py
-```
-3. Install dependences files with other steps ( Optional )
-- If you step 2 not successfully you can download weights from [Google Drive](https://drive.google.com/drive/folders/1Y4coXLsVzCXYuCKpyDfQBqpHH8Aj-Yg5?usp=sharing)
-- Move folder ```graph_models``` downloaded to ```OpenPose\graph_models``
-
+   - You can load dependences library with ``` env.yaml``` file.
+   - You can find ```env.yaml``` file in folder Main
 
 # Quick Start Overview
 ### With Python Base Environments and Anaconda Environment
