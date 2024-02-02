@@ -62,12 +62,23 @@ For this part, we use [LSTM]([https://github.com/ultralytics/yolov3](https://vi.
 
 In addition, we also use [ROC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) to evaluate model. The result for Bidirectional GRU and Bidirection LSTM with no concat shown in figure 1 and figure 2. Concat with summary of BiGRU and BiLSTM shown in figure 3 and 4.
 
+**Fig 1. Receiver Opeating Characteristic and Confusion Matrix for BiGRU Model**
 <p align="center">
-    <img src="github/image/structure.png" width="500">
+    <img src="github/evaluation/1.png" width="1000">
     <br>
 </p>
 
+**Fig 2. ROC and Confustion Matrix for BiLSTM Model**
+<p align="center">
+    <img src="github/evaluation/2.png" width="1000">
+    <br>
+</p>
 
+**Fig 3. ROC and LogLoss for BiLSTM Model [Concatenate with summary]**
+<p align="center">
+    <img src="github/evaluation/5.png" width="1000">
+    <br>
+</p>
 # Installation
 
 ### With Python Base
