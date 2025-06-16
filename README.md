@@ -82,29 +82,11 @@ In addition, we also use [ROC](https://en.wikipedia.org/wiki/Receiver_operating_
 
 # Installation
 
-### With Python Base
-Requirements python >= 3.7 
-1. Install dependences library
- ```bash
- pip install -r requirements.txt
-```
-
 ### With Anaconda 
 1. Install dependences library
    - You can load dependences library with ``` env.yaml``` file.
    - You can find ```env.yaml``` file in folder Main
 
-# Quick Start Overview
-### With Python Base Environments and Anaconda Environment
-1. Quick Run
- - You can run this file ```main.py``` to start this project. 
-2. [Optinal]To trainning model you using ```create_data.py``` to export data points and move to folder ```Action\trainning``` and using .ipnb file ```train.ipnb``` to train.
-3. [Optinal] Using VGG_origin can be slow, if you don't have GPU you can change model to ```mobilenet``` to predict faster.
-   - To change model to ```mobilenet```, navigation to file ```main.py``` in main folder.
-   - In line 14, change ``` estimator = load_pretrain_model('VGG_origin')``` to ```estimator = 
- load_pretrain_model('mobilenet_thin')```
-   
-4.[Optinal] To use your weight, you can change it in ```main.py```, in line 15 change ```action_classifier = load_action_premodel('open_pose2\Action\framewise_recognition_under_scene.h5')``` to ```action_classifier = load_action_premodel('path_to_your_weights')```
   
 # Structures
 **Structures for all models**
@@ -116,10 +98,7 @@ Requirements python >= 3.7
 # Send Us FeedBack
 Our project is open source for research purposes, and we want to improve it! So let us know (create a new GitHub issue or pull request, email us, etc.) if you...
 1. Find/fix any bug (in functionality or speed) or know how to speed up or improve any part of OpenPoseRNN.
-2. Want to add/show some cool functionality/demo/project made on top of Students Tracking. We can add your project link to your [Issue](https://github.com/datnguyen-tien204/Tracking_Students/issues)
-
-# Thanks
-Thank you for the guidance of Dr.Minh Chuan-Pham in the process of creating this project, as well as the evaluation board consisting of Dr.Quoc Viet-Hoang, who helped us improve the results and provided feedback for this project.
+2. Want to add/show some cool functionality/demo/project made on top of Vietnamese News Classificationb. We can add your project link to your [Issue]([https://github.com/datnguyen-tien204/Tracking_Students](https://github.com/datnguyen-tien204/Vietnamese-News-Classification)/issues)
 
 # License
 This project is freely available for free non-commercial use. If it useful you can give 1 star. Thanks for using.
