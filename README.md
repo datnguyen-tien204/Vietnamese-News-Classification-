@@ -1,5 +1,4 @@
 [English](README.md) | [简体中文](github/cn_Zh_ReadmeMD.md) | [Tiếng việt](github/vi_vn_ReadmeMD.md)
-# Update: 1/2/2024. This project is in the completion stage. I am writing Readme.md file. I'm sorry because it is slowly.
 
 ## Contents
 1. [Vietnamese Category Classification](#introduction)
